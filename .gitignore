@@ -15,3 +15,9 @@ application/logs/*
 !application/logs/index.html
 !application/logs/.htaccess
 /vendor/
+
+
+#mac
+.DS_Store
+*.DS_Store
+!.DS_Store
