@@ -14,21 +14,21 @@
 # ENVIRONMENT
 #--------------------------------------------------------------------
 
-# CI_ENVIRONMENT = production
+ CI_ENVIRONMENT = development
 
 #--------------------------------------------------------------------
 # APP
 #--------------------------------------------------------------------
 
-# app.baseURL = ''
-# app.forceGlobalSecureRequests = false
+ app.baseURL = 'http://localhost/xochimaco/miTarjetaNav/'
+ app.forceGlobalSecureRequests = false
 
-# app.sessionDriver = 'CodeIgniter\Session\Handlers\FileHandler'
-# app.sessionCookieName = 'ci_session'
-# app.sessionSavePath = NULL
-# app.sessionMatchIP = false
-# app.sessionTimeToUpdate = 300
-# app.sessionRegenerateDestroy = false
+ app.sessionDriver = 'CodeIgniter\Session\Handlers\FileHandler'
+ app.sessionCookieName = 'ci_session'
+ app.sessionSavePath = NULL
+ app.sessionMatchIP = false
+ app.sessionTimeToUpdate = 300
+ app.sessionRegenerateDestroy = false
 
 # app.cookiePrefix = ''
 # app.cookieDomain = ''
