@@ -1,0 +1,22 @@
+CRITICAL - 2020-12-02 15:27:34 --> syntax error, unexpected '}', expecting ';'
+#0 /Users/babas/proyectos/xochimaco/miTarjetaNav/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/Users/babas/pr...')
+#1 /Users/babas/proyectos/xochimaco/miTarjetaNav/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /Users/babas/proyectos/xochimaco/miTarjetaNav/system/CodeIgniter.php(873): class_exists('\\App\\Controller...', true)
+#5 /Users/babas/proyectos/xochimaco/miTarjetaNav/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->startController()
+#6 /Users/babas/proyectos/xochimaco/miTarjetaNav/system/CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/babas/proyectos/xochimaco/miTarjetaNav/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/babas/proyectos/xochimaco/miTarjetaNav/system/Commands/Server/rewrite.php(34): require_once('/Users/babas/pr...')
+#9 {main}
+CRITICAL - 2020-12-02 15:30:53 --> syntax error, unexpected '}', expecting ';'
+#0 /Users/babas/proyectos/xochimaco/miTarjetaNav/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/Users/babas/pr...')
+#1 /Users/babas/proyectos/xochimaco/miTarjetaNav/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /Users/babas/proyectos/xochimaco/miTarjetaNav/system/CodeIgniter.php(873): class_exists('\\App\\Controller...', true)
+#5 /Users/babas/proyectos/xochimaco/miTarjetaNav/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->startController()
+#6 /Users/babas/proyectos/xochimaco/miTarjetaNav/system/CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/babas/proyectos/xochimaco/miTarjetaNav/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/babas/proyectos/xochimaco/miTarjetaNav/system/Commands/Server/rewrite.php(34): require_once('/Users/babas/pr...')
+#9 {main}
