@@ -23,7 +23,7 @@
 			    </div>
 
 			    <div class="col text-center">
-			       <button type="button" class="btn btn-primary">Jalo</button>
+			        <input id="file" type="file" class="btn btn-primary" >
 			    </div>
 
 			     <div class="col order-last">
@@ -46,6 +46,40 @@
 
 	 </div>
 
-	
 
-</div><!--container gral-->	 
+
+  <!-- Content -->
+  <div class="container">
+  	<div class="row">
+  		<div class="col" id="handle" style="display:none">
+  			<button class="btn btn-primary" id="brightness">Brightness</button>
+      		<button class="btn btn-primary" id="contrast">Contrast</button>
+      		<button class="btn btn-primary" id="reset">Otra vez</button>
+      		<button class="btn btn-primary" id="save">ya estuvo</button>
+  		</div>
+
+  	</div>
+
+  	<div class="row">
+  		<div class="col-lg-5"><canvas id="canvas"></canvas></div>
+  		<div class="col-lg-7">
+  			<img src="<?= base_url('assets/img/pruebita.jpeg')?>" alt="" class="mx-auto d-block img-fluid img-thumbnail" >
+
+  			<img src="" id="cortada" alt="">
+
+  			<div class="test"></div>
+  		</div>
+  	</div>
+
+
+  </div>
+
+</div><!--container gral-->
+
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="<?= base_url('assets/js/bootstrap.min.js')?>"></script>
+  <script src="<?= base_url('assets/js/misc.js')?>"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/camanjs/4.1.2/caman.full.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/cropper/2.2.4/cropper.min.js"></script>
