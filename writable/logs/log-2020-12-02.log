@@ -20,3 +20,32 @@ CRITICAL - 2020-12-02 15:30:53 --> syntax error, unexpected '}', expecting ';'
 #7 /Users/babas/proyectos/xochimaco/miTarjetaNav/public/index.php(45): CodeIgniter\CodeIgniter->run()
 #8 /Users/babas/proyectos/xochimaco/miTarjetaNav/system/Commands/Server/rewrite.php(34): require_once('/Users/babas/pr...')
 #9 {main}
+CRITICAL - 2020-12-02 16:05:22 --> Invalid file: {0}
+#0 /Users/babas/proyectos/xochimaco/miTarjetaNav/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/jeder...')
+#1 /Users/babas/proyectos/xochimaco/miTarjetaNav/system/Common.php(1119): CodeIgniter\View\View->render('templates/jeder', Array, true)
+#2 /Users/babas/proyectos/xochimaco/miTarjetaNav/app/Controllers/MiTarjeta.php(12): view('templates/jeder', Array)
+#3 /Users/babas/proyectos/xochimaco/miTarjetaNav/system/CodeIgniter.php(922): App\Controllers\MiTarjeta->index()
+#4 /Users/babas/proyectos/xochimaco/miTarjetaNav/system/CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MiTarjeta))
+#5 /Users/babas/proyectos/xochimaco/miTarjetaNav/system/CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/babas/proyectos/xochimaco/miTarjetaNav/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 /Users/babas/proyectos/xochimaco/miTarjetaNav/system/Commands/Server/rewrite.php(34): require_once('/Users/babas/pr...')
+#8 {main}
+CRITICAL - 2020-12-02 16:05:26 --> Invalid file: {0}
+#0 /Users/babas/proyectos/xochimaco/miTarjetaNav/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/jeder...')
+#1 /Users/babas/proyectos/xochimaco/miTarjetaNav/system/Common.php(1119): CodeIgniter\View\View->render('templates/jeder', Array, true)
+#2 /Users/babas/proyectos/xochimaco/miTarjetaNav/app/Controllers/Mitarjeta.php(12): view('templates/jeder', Array)
+#3 /Users/babas/proyectos/xochimaco/miTarjetaNav/system/CodeIgniter.php(922): App\Controllers\MiTarjeta->index()
+#4 /Users/babas/proyectos/xochimaco/miTarjetaNav/system/CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MiTarjeta))
+#5 /Users/babas/proyectos/xochimaco/miTarjetaNav/system/CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/babas/proyectos/xochimaco/miTarjetaNav/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 /Users/babas/proyectos/xochimaco/miTarjetaNav/system/Commands/Server/rewrite.php(34): require_once('/Users/babas/pr...')
+#8 {main}
+CRITICAL - 2020-12-02 20:18:20 --> syntax error, unexpected 'assets' (T_STRING), expecting ')'
+#0 /Users/babas/proyectos/xochimaco/miTarjetaNav/system/Common.php(1119): CodeIgniter\View\View->render('template/jeder', Array, true)
+#1 /Users/babas/proyectos/xochimaco/miTarjetaNav/app/Controllers/Mitarjeta.php(12): view('template/jeder', Array)
+#2 /Users/babas/proyectos/xochimaco/miTarjetaNav/system/CodeIgniter.php(922): App\Controllers\MiTarjeta->index()
+#3 /Users/babas/proyectos/xochimaco/miTarjetaNav/system/CodeIgniter.php(408): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MiTarjeta))
+#4 /Users/babas/proyectos/xochimaco/miTarjetaNav/system/CodeIgniter.php(316): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Users/babas/proyectos/xochimaco/miTarjetaNav/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /Users/babas/proyectos/xochimaco/miTarjetaNav/system/Commands/Server/rewrite.php(34): require_once('/Users/babas/pr...')
+#7 {main}
