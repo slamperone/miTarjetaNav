@@ -54,7 +54,7 @@
   		<div class="col" id="handle" style="display:none">
   			<button class="btn btn-primary" id="brightness">Brightness</button>
       		<button class="btn btn-primary" id="contrast">Contrast</button>
-      		<button class="btn btn-primary" id="reset">Otra vez</button>
+      		<button class="btn btn-primary" id="reset">va de nuez</button>
       		<button class="btn btn-primary" id="save">ya estuvo</button>
   		</div>
 
@@ -65,9 +65,8 @@
   		<div class="col-lg-7">
   			<img src="<?= base_url('assets/img/pruebita.jpeg')?>" alt="" class="mx-auto d-block img-fluid img-thumbnail" >
 
-  			<img src="" id="cortada" alt="">
-
-  			<div class="test"></div>
+			<div id="temporal"></div>
+  			<div id="cortadas"></div>
   		</div>
   	</div>
 

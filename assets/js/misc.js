@@ -6,6 +6,8 @@ $(function () {
       var $canvas = $('#canvas');
       var caman;
       var hor,ver,ancho,alto;
+      var cual = Math.floor(Math.random() * 1000)
+
 
       function startCropper() {
 
@@ -74,35 +76,36 @@ $(function () {
         }
       });
 
+      $('#reset').on('click', function () {
+        if (caman) {
+        caman.revert(false);
+        caman.render();
+        console.log('dadada')
 
-      $('#reset').on('click',function() {
-         if (caman) {
-            caman.revert(true);
-            console.log('reset')
         }
-
       });
 
-      $('#save').click(function() {
-        //window.open(caman.toBase64());
 
-        //console.log (ancho);
+
+      $('#save').click(function() {
+
+        micual = cual++
 
         var bg = $('.cropper-canvas img').attr('src');
 
-        $('.test').html('<img id="ora" src="' + bg + '" />')
+        $('#temporal').html('<img id="ora'+micual+'" src="' + bg + '" />')
         //console.log('uno');
 
-          Caman("#ora", function() {
+          Caman("#ora"+micual, function() {
               this.crop(ancho, alto, hor, ver);
               this.render(function() {
-      var image = this.toBase64();
+              var image = this.toBase64();
 
       //window.open(image);
 
-      $('.test').html('<img id="ora" src="' + image + '" />')
+      $('#cortadas').append('<img id="'+micual+'" src="' + image + '" />')
 
-      $('#ora').draggable()
+      $('#cortadas img').draggable()
 
 
       
