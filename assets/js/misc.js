@@ -54,7 +54,7 @@ $(function () {
             if (/^image\/\w+$/.test(file.type)) {
               startCaman(URL.createObjectURL(file));
             } else {
-              window.alert('Please choose an image file.');
+              window.alert('Puras fotos.');
             }
           }
         });
@@ -75,9 +75,11 @@ $(function () {
       });
 
 
-      $('#reset').click(function() {
-        caman.reset();
-        caman.render();
+      $('#reset').on('click',function() {
+         if (caman) {
+            caman.revert(true);
+            console.log('reset')
+        }
 
       });
 
@@ -100,7 +102,8 @@ $(function () {
 
       $('.test').html('<img id="ora" src="' + image + '" />')
 
-      $('#ora').draggable();
+      $('#ora').draggable()
+
 
       
     });

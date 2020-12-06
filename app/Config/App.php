@@ -21,7 +21,8 @@ class App extends BaseConfig
 	| environments.
 	|
 	*/
-	public $baseURL = 'http://localhost/xochimaco/miTarjetaNav/';
+	//public $baseURL = 'http://localhost/xochimaco/miTarjetaNav/';
+	public $baseURL = 'https://develupme.com/gordovision/';
 
 	/*
 	|--------------------------------------------------------------------------
