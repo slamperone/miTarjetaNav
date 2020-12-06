@@ -63,10 +63,32 @@
   	<div class="row">
   		<div class="col-lg-5"><canvas id="canvas"></canvas></div>
   		<div class="col-lg-7">
-  			<img src="<?= base_url('assets/img/pruebita.jpeg')?>" alt="" class="mx-auto d-block img-fluid img-thumbnail" >
+  			<div class="row">
+  				<div class="col" id="minis">
+  					
+  					<img src="<?= base_url('assets/img/pruebita.jpeg')?>" alt="" class="mx-auto d-block img-fluid img-thumbnail float-left" width="120">
+  					<img src="<?= base_url('assets/img/dos.jpg')?>" alt="" class="mx-auto d-block img-fluid img-thumbnail float-left" width="120">
+  					<img src="<?= base_url('assets/img/tres.jpg')?>" alt="" class="mx-auto d-block img-fluid img-thumbnail float-left" width="120">
+  					<img src="<?= base_url('assets/img/cuatro.jpg')?>" alt="" class="mx-auto d-block img-fluid img-thumbnail float-left" width="120">
+  				</div>
+  			</div>
+  			<div class="row">	
 
-			<div id="temporal"></div>
-  			<div id="cortadas"></div>
+  				<div class="col">  	
+  					<img src="<?= base_url('assets/img/pruebita.jpeg')?>" alt="" class="mx-auto d-block img-fluid img-thumbnail" id="escena">
+				</div>
+			</div>
+			<div class="row">
+
+  				<div class="col">
+  								<div id="temporal"></div>
+  								<div id="cortadas"></div>
+  				</div>
+  			</div>
+
+
+
+
   		</div>
   	</div>
 

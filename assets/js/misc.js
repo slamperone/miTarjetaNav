@@ -103,7 +103,7 @@ $(function () {
 
       //window.open(image);
 
-      $('#cortadas').append('<img id="'+micual+'" src="' + image + '" />')
+      $('#cortadas').append('<img id="'+micual+'" src="' + image + '" class="mx-auto d-block img-fluid"/>')
 
       $('#cortadas img').draggable()
 
@@ -113,5 +113,17 @@ $(function () {
 
           });
       });
+
+       $('#minis img').click(function(e) {
+
+        actual = $(this).attr('src');
+
+      //console.log($(this).attr('src'))
+
+              $('#escena').attr('src', actual )
+
+
+       });
+
 
     });
