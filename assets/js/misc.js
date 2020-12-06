@@ -103,7 +103,7 @@ $(function () {
 
       //window.open(image);
 
-      $('#cortadas').append('<img id="'+micual+'" src="' + image + '" class="mx-auto d-block img-fluid"/>')
+      $('#cortadas').append('<img id="'+micual+'" src="' + image + '" class="mx-auto d-block img-fluid caritas"/>')
 
       $('#cortadas img').draggable()
 
